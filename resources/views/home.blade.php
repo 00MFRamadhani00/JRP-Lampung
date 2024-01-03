@@ -26,23 +26,18 @@
                     <!-- Default Card -->
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title"><span class="d-none d-lg-block">Dibuat oleh <a href="#">Tim Inception</a></span>
+                            <h5 class="card-title"><span class="d-none d-lg-block">Dibuat oleh <a href="#">Tim JRP</a></span>
                                 <hr>
                             </h5>
                             <h1>
                                 Selamat Datang
                             </h1>
-                            <h5 style="opacity: 0.8;">Pengenalan wajah dalam sistem kehadiran Mahasiswa</h5>
+                            <h5 style="opacity: 0.8;"></h5>
                             <img class="gambar-depan" src="assets/img/jrpImg.png" alt="" width="615px">
                             <hr>
 
                             <!-- Isi Start -->
-                            <p>Sistem presensi mahasiswa menggunakan wajah menggunakan model inception. Sistem ini kami kembangkan untuk mempermudah proses presensi mahasiswa di kampus.
-                            </p>
-
-                            <p>
-                                Sistem ini menggunakan model inception untuk mendeteksi wajah mahasiswa. Model inception adalah model jaringan saraf konvolusional (CNN) yang dikembangkan oleh Google AI pada tahun 2014. Model ini memiliki struktur yang unik, yaitu menggunakan beberapa filter berukuran berbeda dalam satu layer. Hal ini memungkinkan model inception untuk belajar fitur-fitur wajah yang lebih beragam dan kompleks.
-                            </p>
+                            
 
                             <!-- Isi End -->
                         </div>
