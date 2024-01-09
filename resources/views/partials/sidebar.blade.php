@@ -46,16 +46,16 @@
         </li><!-- End Dashboard Nav -->
 
         <li class="nav-item">
-            <a class="nav-link {{ Request::is('/scanface') ? '' : 'collapsed'}}" href="/scanface">
-                <i class="bi bi-upc-scan"></i>
+            <a class="nav-link {{ Request::is('/produk') ? '' : 'collapsed'}}" href="/produk">
+                <i class="bi bi-box"></i>
                 <span>Produk</span>
             </a>
         </li><!-- End Scan Face Nav -->
 
         <li class="nav-item">
-            <a class="nav-link collapsed" href="/login">
-                <i class="bi bi-box-arrow-in-right"></i>
-                <span>Layanan Pelanggan</span>
+            <a class="nav-link collapsed" href="/lokasi">
+                <i class="bi bi-geo"></i>
+                <span>Lokasi Instansi</span>
             </a>
         </li><!-- End Login Page Nav -->
         @endauth
