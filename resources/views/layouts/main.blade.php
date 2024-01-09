@@ -101,13 +101,13 @@
                     @else
                     <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
                         <img src="{{ asset ('assets/img/blank-profile-picture.png') }}" alt="Profile" class="rounded-circle">
-                        <span class="d-none d-md-block dropdown-toggle ps-2">Masuk/Daftar</span>
+                        <span class="d-none d-md-block dropdown-toggle ps-2">Masuk Admin</span>
                     </a><!-- End Profile Iamge Icon -->
 
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
-                            <h6>User</h6>
-                            <span>Guest</span>
+                            <h6>Admin</h6>
+                            <span>Khusus Untuk Admin</span>
                         </li>
                         <li>
                             <hr class="dropdown-divider">

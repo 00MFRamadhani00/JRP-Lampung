@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LokasiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,5 @@ Route::get('/', function () {
         'title' => 'JRP Insurance Lampung',
     ]);
 })->middleware('guest');
+
+Route::get('/lokasi', [LokasiController::class, 'index'])->name('location-page');
